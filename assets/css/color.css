@@ -20,7 +20,7 @@ button.btn,
 .portfolio .item .info p,
 .project_info span,
 .ajax-popup a.demo {
-  color: #3f3963; /*#fec007*/
+  color: #3f3963; /*#3f3963*/
 }
 
 .bttn_bg_color,
@@ -67,4 +67,32 @@ button.btn:after,
 
 .resume .date:after {
   background: linear-gradient(45deg, #3f3963 50%, rgba(255, 255, 255, 0) 50%);
+}
+
+.sec_title h2::after,
+.subtitle::after,
+.info span.icon:after {
+  background-color: #e63f3f !important;
+}
+
+#submit_btn {
+  background-color: #e63f3f !important;
+  color: #fff !important;
+  border-color: #e63f3f !important;
+}
+
+#submit_btn::after {
+  background-color: transparent;
+  border-color: #e63f3f !important;
+}
+
+#submit_btn:hover {
+  background-color: #fff !important;
+  color: #e63f3f !important;
+  border-color: #e63f3f !important;
+}
+
+#submit_btn::after:hover {
+  background-color: #fff !important;
+  border-color: #e63f3f !important;
 }
