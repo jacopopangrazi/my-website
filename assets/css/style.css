@@ -557,19 +557,18 @@ h3.subtitle:after {
 
 #particles-js {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  /* user-select: none; */
 }
 
 .navbar-default {
   width: 100%;
   position: absolute;
   left: 50%;
-  z-index: 1;
+  z-index: 4;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
@@ -697,6 +696,8 @@ h3.subtitle:after {
 }
 
 .home .home_btns {
+  position: relative;
+  z-index: 4;
   margin-top: 35px;
 }
 
@@ -706,6 +707,8 @@ h3.subtitle:after {
   font-weight: 600;
   font-size: 60px;
   margin-top: 35px;
+  position: relative;
+  z-index: 4;
 }
 
 .home h1.fit--text .typed-cursor {
@@ -994,6 +997,7 @@ h3.subtitle:after {
 
 .footer {
   position: absolute;
+  z-index: 4;
   bottom: 8px;
   left: 0;
   width: 100%;
