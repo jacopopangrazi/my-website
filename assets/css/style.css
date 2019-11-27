@@ -284,7 +284,7 @@ section .sec__content {
 }
 
 .shape {
-  fill: #e63f3f;
+  fill: #3f3963;
 }
 
 .sec_content .shape {
@@ -292,7 +292,7 @@ section .sec__content {
 }
 
 .sec_content .content__inner {
-  background-color: #e63f3f;
+  /* background-color: #3f3963; */
   width: 100%;
   height: 100%;
   overflow-y: auto;
@@ -686,7 +686,7 @@ h3.subtitle:after {
 }
 
 .content.content--intro {
-  background-color: #e63f3f;
+  background-color: #3f3963;
 }
 
 .home {

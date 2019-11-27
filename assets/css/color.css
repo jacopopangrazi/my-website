@@ -20,7 +20,7 @@ button.btn,
 .portfolio .item .info p,
 .project_info span,
 .ajax-popup a.demo {
-  color: #3f3963; /*#3f3963*/
+  color: #e67e22; /*#e67e22*/
 }
 
 .bttn_bg_color,
@@ -38,7 +38,7 @@ h3.subtitle:after,
 .info span.icon:after,
 .btn:hover:after,
 button.btn:hover:after {
-  background-color: #3f3963;
+  background-color: #e67e22;
 }
 
 .bttn_bg_color,
@@ -51,48 +51,48 @@ section.pt-page:not(.home) .scroll__content,
 .btn:after,
 button.btn:after,
 .form-control:focus {
-  border-color: #3f3963;
+  border-color: #e67e22;
 }
 
 .sec_title,
 .fun-facts .item,
 .testi-content,
 .testi-content:after {
-  border-bottom-color: #3f3963;
+  border-bottom-color: #e67e22;
 }
 
 .testi-content:after {
-  border-left-color: #3f3963;
+  border-left-color: #e67e22;
 }
 
 .resume .date:after {
-  background: linear-gradient(45deg, #3f3963 50%, rgba(255, 255, 255, 0) 50%);
+  background: linear-gradient(45deg, #e67e22 50%, rgba(255, 255, 255, 0) 50%);
 }
 
 .sec_title h2::after,
 .subtitle::after,
 .info span.icon:after {
-  background-color: #e63f3f !important;
+  background-color: #e67e22 !important;
 }
 
 #submit_btn {
-  background-color: #e63f3f !important;
+  background-color: #e67e22 !important;
   color: #fff !important;
-  border-color: #e63f3f !important;
+  border-color: #e67e22 !important;
 }
 
 #submit_btn::after {
   background-color: transparent;
-  border-color: #e63f3f !important;
+  border-color: #e67e22 !important;
 }
 
 #submit_btn:hover {
   background-color: #fff !important;
-  color: #e63f3f !important;
-  border-color: #e63f3f !important;
+  color: #e67e22 !important;
+  border-color: #e67e22 !important;
 }
 
 #submit_btn::after:hover {
   background-color: #fff !important;
-  border-color: #e63f3f !important;
+  border-color: #e67e22 !important;
 }
