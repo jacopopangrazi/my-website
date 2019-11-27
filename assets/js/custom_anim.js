@@ -560,5 +560,9 @@ $(document).ready(function() {
 // makes the navbar cover the particles when the
 // mobile menu is open
 $(".navbar-toggle").on("click", () => {
-  $(".navbar-header").toggleClass("cover");
+  if (!$(".navbar-collapse").hasClass("in")) {
+    $(".navbar-header").addClass("cover");
+  } else {
+    $(".navbar-header").removeClass("cover");
+  }
 });
