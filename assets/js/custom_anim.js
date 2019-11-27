@@ -553,7 +553,12 @@ $(function() {
         showCursor: !1
       });
   });
-
+// loads the particles in home section
 $(document).ready(function() {
   particlesJS.load("particles-js", "./assets/js/particle/particles.json");
+});
+// makes the navbar cover the particles when the
+// mobile menu is open
+$(".navbar-toggle").on("click", () => {
+  $(".navbar-header").toggleClass("cover");
 });

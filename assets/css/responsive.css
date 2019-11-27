@@ -95,6 +95,10 @@
   }
 
   .navbar-header {
+    background-color: transparent;
+  }
+
+  .navbar-header.cover {
     background-color: #3f3963;
   }
 
