@@ -555,6 +555,16 @@ h3.subtitle:after {
 /*  03.Home Section
 /*=================================*/
 
+#particles-js {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* user-select: none; */
+}
+
 .navbar-default {
   width: 100%;
   position: absolute;
@@ -578,7 +588,7 @@ h3.subtitle:after {
 }
 
 .navbar-default .navbar-collapse {
-  background-color: #e63f3f;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-brand {

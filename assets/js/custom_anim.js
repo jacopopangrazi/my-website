@@ -553,3 +553,13 @@ $(function() {
         showCursor: !1
       });
   });
+
+$(document).ready(function() {
+  particlesJS.load(
+    "particles-js",
+    "./assets/js/particle/particles.json",
+    function() {
+      console.log("callback - particles.js config loaded");
+    }
+  );
+});

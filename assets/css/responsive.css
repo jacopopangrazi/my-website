@@ -91,6 +91,11 @@
 
   .navbar-default .navbar-collapse {
     border: none;
+    background-color: #e63f3f;
+  }
+
+  .navbar-header {
+    background-color: #e63f3f;
   }
 
   .navbar-nav > li {
