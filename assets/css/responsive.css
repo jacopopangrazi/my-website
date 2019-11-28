@@ -76,6 +76,10 @@
 ===============================================*/
 
 @media (max-width: 767px) {
+  .services .service_content p {
+    padding: 0 100px;
+  }
+
   .xs-margin-top-12 {
     margin-top: 12px;
   }
@@ -126,6 +130,10 @@
 }
 
 @media (max-width: 550px) {
+  .services .service_content p {
+    padding: 0;
+  }
+
   .sec_title h2 {
     font-size: 60px;
   }

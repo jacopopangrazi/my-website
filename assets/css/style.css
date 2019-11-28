@@ -4,10 +4,8 @@
 *  02.Preloader 
 *  03.Home Section
 *  04.About Section
-*  05.Resume Section 
-*  06.Portfolio Section
-*  07.Blog Section
-*  08.Contact Section 
+*  05.Portfolio Section
+*  06.Contact Section 
 * -----------------------------------------------------
 */
 
@@ -693,6 +691,11 @@ h3.subtitle:after {
   background-color: transparent;
   position: relative;
   z-index: 2;
+  height: 100vh;
+}
+
+#home .content---wrapper {
+  height: 100vh;
 }
 
 .home .home_btns {
@@ -715,7 +718,7 @@ h3.subtitle:after {
   font-weight: 100;
 }
 
-#home .content---wrapper img {
+#home #home .content---wrapper img {
   display: block;
   margin: auto;
   -moz-border-radius: 50%;
@@ -1514,6 +1517,10 @@ a.active_item {
   letter-spacing: 0.5px;
 }
 
+.service .content {
+  text-align: center;
+}
+
 .owl {
   margin-left: -15px;
   margin-right: -15px;
@@ -1679,100 +1686,7 @@ a.active_item {
 /*End About Section*/
 
 /*=================================*/
-/*  05.Resume Section 
-/*=================================*/
-
-section.resume .sec__content {
-  background-color: #fafafa;
-}
-
-.resume .item {
-  position: relative;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-top: 22px;
-  padding-right: 15px;
-  margin-left: 20px;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  margin-bottom: 15px;
-  border: 1px solid #eee;
-  background-color: #fff;
-}
-
-.resume .item:last-of-type {
-  margin-bottom: 0;
-}
-
-.resume .item:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -20px;
-  width: 2px;
-  height: -moz-calc(100% + 17px);
-  height: calc(100% + 17px);
-  opacity: 0.8;
-}
-
-.resume .item:before {
-  content: "";
-  position: absolute;
-  top: 29px;
-  left: -19px;
-  width: 19px;
-  height: 1px;
-}
-
-.resume .date {
-  position: relative;
-  line-height: 1;
-  margin-bottom: 14px;
-}
-
-.resume .date:after {
-  content: "";
-  position: absolute;
-  top: 3px;
-  left: -43px;
-  width: 8px;
-  height: 8px;
-  -webkit-transform: rotate(225deg);
-  -moz-transform: rotate(225deg);
-  -o-transform: rotate(225deg);
-  transform: rotate(225deg);
-  opacity: 0.8;
-}
-
-.resume .date i {
-  padding-right: 5px;
-  font-size: 14px;
-}
-
-.resume .date span {
-  font-size: 11px;
-  font-weight: 600;
-  color: rgba(0, 0, 0, 0.5);
-  letter-spacing: 0.5px;
-}
-
-.resume h4 {
-  color: #000;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 11px;
-}
-
-.resume .item p {
-  font-size: 13px;
-  line-height: 25px;
-  color: #999;
-}
-
-/*End Resume Section*/
-
-/*=================================*/
-/*  06.Prtfolio Section
+/*  05.Prtfolio Section
 /*=================================*/
 
 .portfolio .ul-filter {
@@ -1878,18 +1792,6 @@ section.resume .sec__content {
   letter-spacing: 1px;
   display: inline-block;
   margin-bottom: 8px;
-}
-
-.portfolioAjaxContent.mfp-wrap {
-  overflow: auto;
-}
-
-.portfolioAjaxContent .mfp-container {
-  padding: 0;
-}
-
-.portfolioAjaxContent.mfp-bg {
-  opacity: 0;
 }
 
 .mfp-s-error {
@@ -2031,181 +1933,10 @@ section.resume .sec__content {
   animation-fill-mode: both;
 }
 
-.ajax-popup {
-  background-color: #fff;
-  padding: 30px;
-  text-align: left;
-  max-width: 100%;
-  min-height: 100vh;
-  position: relative;
-}
-
-.ajax-popup .display-table-cell {
-  padding-top: 50px;
-}
-
-.ajax-popup h3 {
-  margin-bottom: 15px;
-  color: #232323;
-  font-weight: 700;
-  font-size: 24px;
-  text-transform: capitalize;
-}
-
-.portfolioAjaxContent button.mfp-close,
-.portfolioAjaxContent .mfp-close:active {
-  font-size: 36px;
-  background-color: rgba(0, 0, 0, 0.75);
-  color: #fff;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  top: 20px;
-  right: 20px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.ajax-popup a.demo {
-  padding: 8px 20px;
-  color: #252525;
-  display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 20px;
-  font-size: 15px;
-  -o-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  border-width: 2px;
-  border-style: solid;
-}
-
-.ajax-popup a.demo:hover {
-  color: #fff;
-}
-
-.ajax-popup iframe {
-  width: 100%;
-  max-width: 100%;
-}
-
-.project_info li {
-  font-size: 15px;
-  color: #555;
-}
-
-.project_info li span {
-  font-size: 15px;
-  font-weight: 400;
-}
-
 /*End Prtfolio Section*/
 
 /*=================================*/
-/*  07.Blog Section
-/*=================================*/
-
-.blog .item {
-  margin-bottom: 50px;
-  overflow-wrap: break-word;
-}
-
-.blog .margin-b-zero {
-  margin-bottom: 0;
-}
-
-.blog .blog__img {
-  position: relative;
-}
-
-.blog .blog__img:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  background-color: #000;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.blog .blog__img img {
-  width: 100%;
-}
-
-.blog .blog__img i {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 50%;
-  left: 0;
-  -webkit-transform: translateY(-50%) scale(0);
-  -moz-transform: translateY(-50%) scale(0);
-  -o-transform: translateY(-50%) scale(0);
-  transform: translateY(-50%) scale(0);
-  color: #fff;
-  z-index: 5;
-  font-size: 50px;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.blog .blog__img:hover:after {
-  opacity: 0.55;
-}
-
-.blog .blog__img:hover i {
-  opacity: 1;
-}
-
-.blog .blog__img:hover i {
-  -webkit-transform: translateY(-50%) scale(1);
-  -moz-transform: translateY(-50%) scale(1);
-  -o-transform: translateY(-50%) scale(1);
-  transform: translateY(-50%) scale(1);
-}
-
-.blog .item .content {
-  padding: 15px;
-  padding-top: 20px;
-  border: 2px solid rgba(0, 0, 0, 0.08);
-  border-top: none;
-}
-
-.blog .item h3 a {
-  display: inline-block;
-  max-width: 100%;
-  color: #040404;
-  font-size: 19px;
-  font-weight: 500;
-  margin-bottom: 8px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.blog .item p {
-  margin-bottom: 3px;
-  display: inline-block;
-  font-weight: 400;
-  font-size: 13px;
-  letter-spacing: 0.5px;
-}
-
-/*End Blog Section*/
-
-/*=================================*/
-/*  08.Contact Section 
+/*  06.Contact Section 
 /*=================================*/
 
 .contact h3.subtitle {
