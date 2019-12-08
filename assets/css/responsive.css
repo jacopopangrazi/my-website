@@ -127,6 +127,10 @@
   .contact .info .item:last-of-type p {
     margin-bottom: 0;
   }
+
+  .portfolio .project_content {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 550px) {
